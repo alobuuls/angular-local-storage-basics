@@ -1,0 +1,106 @@
+/* ==========================
+  CONTENEDOR PRINCIPAL
+========================== */
+
+.storage-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow:
+      0 8px 24px rgba(0,0,0,.08);
+  font-family:
+      "Segoe UI",
+      Tahoma,
+      Geneva,
+      Verdana,
+      sans-serif;
+}
+
+/* ==========================
+  TITULO
+========================== */
+
+.storage-title {
+  margin-bottom: 24px;
+  color: #1f2937;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ==========================
+  BOTONES
+========================== */
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition:
+      transform .2s ease,
+      opacity .2s ease,
+      box-shadow .2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+      0 8px 18px rgba(0,0,0,.12);
+}
+
+.btn:active {
+  transform: scale(.98);
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary {
+  background: #10b981;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #059669;
+}
+
+/* ==========================
+  DIVISOR
+========================== */
+
+.divider {
+  margin: 28px 0;
+  border: none;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+/* ==========================
+  TEXTO INFO
+========================== */
+
+.info {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+}
