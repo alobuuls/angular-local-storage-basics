@@ -1,27 +1,120 @@
-# AngularLocalStorage2
+# 🚀 Angular LocalStorage Example
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Aplicación desarrollada en **Angular 16** que demuestra el uso básico de **LocalStorage** para almacenar y recuperar información persistente en el navegador.
 
-## Development server
+Incluye ejemplos para guardar datos simples y objetos JSON usando `JSON.stringify()` y recuperarlos con `JSON.parse()`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## ⚙️ Requisitos del sistema
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
-## Build
+- 📦 **Node.js:** `v18+` *(preferiblemente v18.10.0)*
+- 📦 **npm:** `v9+`
+- 🅰️ **Angular CLI:** `v16.x`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🔍 Verificar versiones instaladas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecuta:
 
-## Running end-to-end tests
+```bash
+node -v
+npm -v
+ng version
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🚀 Instalación del proyecto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 1️⃣ Clonar repositorio
+
+```bash
+git clone <URL_DEL_REPO>
+cd angular-localStorage2
+```
+
+### 2️⃣ Instalar dependencias
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Ejecutar proyecto
+
+```bash
+ng serve
+```
+
+Abrir:
+
+```bash
+http://localhost:4200
+```
+
+---
+
+## 🧠 Arquitectura del proyecto
+
+Proyecto simple basado en:
+
+### 📦 AppComponent
+
+Contiene:
+
+- Guardado en LocalStorage
+- Lectura desde LocalStorage
+- Persistencia de strings
+- Persistencia de objetos JSON
+
+---
+
+## ⚙️ Funcionalidades principales
+
+- 💾 Guardar datos en LocalStorage
+- 📤 Recuperar datos almacenados
+- 🧾 Uso de `JSON.stringify()`
+- 🔄 Uso de `JSON.parse()`
+- 🖥️ Visualización mediante consola
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- 🅰️ Angular 16
+- ⚡ TypeScript
+- 🌐 LocalStorage API
+
+---
+
+## 📁 Estructura del proyecto
+
+```bash
+src/
+├── app/
+│   ├── app.component.ts
+│   ├── app.component.html
+│   ├── app.component.css
+│   └── app.module.ts
+```
+
+---
+
+## 🔥 Conceptos aprendidos
+
+- Persistencia local del navegador
+- Guardado de objetos complejos
+- Conversión JSON → String
+- Conversión String → JSON
+- Manejo básico de almacenamiento web
+
+---
+
+## 📄 Licencia
+
+Proyecto educativo para aprendizaje de persistencia local con Angular.
